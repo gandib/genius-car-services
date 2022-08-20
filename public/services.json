@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "62d64e6c21c2e18117b03f0c",
+        "price": "300",
+        "img": "https://i.ibb.co/bXJFnSX/1.jpg",
+        "name": "ENGINE DIAGNOSTIC",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem corporis iure distinctio dolorum ducimus voluptatibus dolorem fuga sunt saepe? Incidunt tempora et eveniet, mollitia consequatur dignissimos error sequi asperiores at!"
+    },
+    {
+        "_id": "62d64e6c24f19ddaa2400dfa",
+        "price": "100",
+        "img": "https://i.ibb.co/n7N5bkY/2.jpg",
+        "name": "WHEEL ALIGNMENT",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem corporis iure distinctio dolorum ducimus voluptatibus dolorem fuga sunt saepe? Incidunt tempora et eveniet, mollitia consequatur dignissimos error sequi asperiores at!"
+    },
+    {
+        "_id": "62d64e6c41d2457d387ee125",
+        "price": "150",
+        "img": "https://i.ibb.co/r3twJdB/3.jpg",
+        "name": "OIL CHANGING",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem corporis iure distinctio dolorum ducimus voluptatibus dolorem fuga sunt saepe? Incidunt tempora et eveniet, mollitia consequatur dignissimos error sequi asperiores at!"
+    },
+    {
+        "_id": "62d64e6ca940c657494db2ad",
+        "price": "180",
+        "img": "https://i.ibb.co/BqxTNpD/4.jpg",
+        "name": "BRAKE REPARING",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem corporis iure distinctio dolorum ducimus voluptatibus dolorem fuga sunt saepe? Incidunt tempora et eveniet, mollitia consequatur dignissimos error sequi asperiores at!"
+    },
+    {
+        "_id": "62d64e6c8dde5b59bdaab7a2",
+        "price": "100",
+        "img": "https://i.ibb.co/qL6hybY/5.jpg",
+        "name": "WASH AND GLASSING",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem corporis iure distinctio dolorum ducimus voluptatibus dolorem fuga sunt saepe? Incidunt tempora et eveniet, mollitia consequatur dignissimos error sequi asperiores at!"
+    },
+    {
+        "_id": "62d64e6c270a600f77e3ebf9",
+        "price": "300",
+        "img": "https://i.ibb.co/Z8QdmYT/6.jpg",
+        "name": "COMPLETE ANALYSIS",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem corporis iure distinctio dolorum ducimus voluptatibus dolorem fuga sunt saepe? Incidunt tempora et eveniet, mollitia consequatur dignissimos error sequi asperiores at!"
+    }
+]
