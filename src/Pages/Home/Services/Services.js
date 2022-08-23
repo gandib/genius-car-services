@@ -4,15 +4,10 @@ import './Services.css';
 // import repair1 from '../../../images/repair1.png';
 
 const Services = () => {
-    // const services = [
-    //     { id: 1, name: 'Oil change', price: 100, description: '', img: repair1 }
-    // ];
-
-
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('services.json')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);

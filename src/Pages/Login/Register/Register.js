@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import './Register.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import { async } from '@firebase/util';
 import Loading from '../../Shared/Loading/Loading';
 import PageTitle from '../../Shared/PageTitle/PageTitle';
 
@@ -12,6 +11,8 @@ import PageTitle from '../../Shared/PageTitle/PageTitle';
 const Register = () => {
     const [agree, setAgree] = useState(false);
     const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
     const [
         createUserWithEmailAndPassword,
         user,
@@ -30,6 +31,7 @@ const Register = () => {
 
     if (user) {
         console.log('user', user);
+        navigate(from, { replace: true });
     }
 
     const handleRegister = async (event) => {
@@ -42,7 +44,7 @@ const Register = () => {
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName });
         console.log('Updated profile');
-        navigate('/home');
+        navigate(from, { replace: true });
 
     }
 

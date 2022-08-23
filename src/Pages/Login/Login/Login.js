@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { useNavigate, Link, useLocation } from 'react-router-dom';
+import { useNavigate, Link, useLocation, Navigate } from 'react-router-dom';
 import './Login.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -36,7 +36,7 @@ const Login = () => {
         signInWithEmailAndPassword(email, password);
     }
 
-    const navigateRegister = event => {
+    const navigateRegister = () => {
         navigate('/register');
     }
 
